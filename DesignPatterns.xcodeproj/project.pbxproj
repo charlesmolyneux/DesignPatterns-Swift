@@ -288,13 +288,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		361C6546255AE97A00257ED1 /* Visitor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Visitor;
-			sourceTree = "<group>";
-		};
 		361C65EF255C3C0900257ED1 /* Commands */ = {
 			isa = PBXGroup;
 			children = (
@@ -799,7 +792,6 @@
 				36B57F06254AF49000ED0830 /* State */,
 				36B57EE4254ADD7300ED0830 /* Observer */,
 				36CC72C32559A642001E65D6 /* Strategy */,
-				361C6546255AE97A00257ED1 /* Visitor */,
 			);
 			path = Behavioural;
 			sourceTree = "<group>";
