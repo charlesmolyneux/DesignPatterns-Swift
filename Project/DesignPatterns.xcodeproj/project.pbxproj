@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3607E4EA255EE1F8003772DF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3607E4E9255EE1F8003772DF /* README.md */; };
 		361C65EA255C3BFD00257ED1 /* UploadDocumentCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C65E9255C3BFD00257ED1 /* UploadDocumentCommand.swift */; };
 		361C65F5255C3C1700257ED1 /* LogDocumentUploadCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C65F4255C3C1700257ED1 /* LogDocumentUploadCommand.swift */; };
 		361C65FC255C3C3800257ED1 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C65FB255C3C3800257ED1 /* AnalyticsService.swift */; };
@@ -136,7 +135,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3607E4E9255EE1F8003772DF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		361C65E9255C3BFD00257ED1 /* UploadDocumentCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadDocumentCommand.swift; sourceTree = "<group>"; };
 		361C65F4255C3C1700257ED1 /* LogDocumentUploadCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogDocumentUploadCommand.swift; sourceTree = "<group>"; };
 		361C65FB255C3C3800257ED1 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
@@ -627,7 +625,6 @@
 			isa = PBXGroup;
 			children = (
 				3607E50E255EED57003772DF /* DesignPatterns */,
-				3607E4E9255EE1F8003772DF /* README.md */,
 				36359C6225487C61006CB743 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1051,7 +1048,6 @@
 				36B57F08254AF5BF00ED0830 /* State in Resources */,
 				36CC72E42559B605001E65D6 /* Decorator in Resources */,
 				36B57EE8254ADD8300ED0830 /* Observer in Resources */,
-				3607E4EA255EE1F8003772DF /* README.md in Resources */,
 				36B57D242549C72200ED0830 /* Adapter in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
