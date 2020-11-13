@@ -1,6 +1,6 @@
 ﻿
 
-## Factory - Creational
+# Factory - Creational
 **Aliases: 
 Virtual Constructor**
 
@@ -22,7 +22,7 @@ This is useful for when you cannot determine what type of object needs to be cre
  -  Can end up with a large number of subclasses whilst implementing this pattern. This can increase overall complexity.
 
 
-## Abstract Factory - Creational
+# Abstract Factory - Creational
 
 ### Summary & Pattern Objective
 The Abstract Family is similar to the Factory method. However, the **Abstract Factory** allows us to produce a family of related objects without specifying their concrete class. 
