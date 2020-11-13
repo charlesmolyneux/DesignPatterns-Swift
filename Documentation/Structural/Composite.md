@@ -1,6 +1,6 @@
 
 
-## Composite - Creational
+# Composite - Creational
 **Aliases:
 Object Tree**
 ## Summary

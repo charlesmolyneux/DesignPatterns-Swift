@@ -1,4 +1,4 @@
-## Strategy - Behavioural
+# Strategy - Behavioural
 
 ## Summary
 The Strategy Pattern allows you to divide a group of related algorithms so each algorithm has its own separate class. The client can then determine which algorithm to use and change as necessary.

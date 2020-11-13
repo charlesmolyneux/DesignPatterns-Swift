@@ -1,6 +1,4 @@
-
-
-## Singleton - Creational
+# Singleton - Creational
 
 ## Summary
 Singletons let you ensure that a class has only one instance and provides a global access point to this instance.
@@ -15,9 +13,9 @@ Singletons let you ensure that a class has only one instance and provides a glob
  - [x] Global access point to that instance.
  - [x] Object only initialised when it's requested.
 
-**CONS** 
+**CONS**
 - Can become a [god-object](https://en.wikipedia.org/wiki/God_object)
-- Violates the SRP. 
+- Violates the SRP.
 - Singletons can mask bad design. e.g. components can know too much about each other.
 - Beware multi-threading. Must make sure multiple threads do not create a singleton object 'x' times.
 - Can increase unit testing complexity. May need a creative solution for mocking the singleton.

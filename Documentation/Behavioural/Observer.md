@@ -1,4 +1,4 @@
-## Observer - Behavioural
+# Observer - Behavioural
 **Aliases:
 Event-Subscriber, Listener**
 

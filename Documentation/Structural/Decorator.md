@@ -1,6 +1,6 @@
 
 
-## Decorator - Creational
+# Decorator - Creational
 **Aliases:
 Wrapper**
 ## Summary

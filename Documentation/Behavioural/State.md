@@ -1,4 +1,4 @@
-## State - Behavioural
+# State - Behavioural
 
 ## Summary
  The **State** Pattern allows for objects to change its behaviour when its internal state changes.
