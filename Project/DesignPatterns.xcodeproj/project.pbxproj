@@ -103,7 +103,6 @@
 		36CC72D52559B49F001E65D6 /* Uploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CC72D42559B49F001E65D6 /* Uploader.swift */; };
 		36CC72D92559B50E001E65D6 /* Sorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CC72D82559B50E001E65D6 /* Sorter.swift */; };
 		36CC72DD2559B53A001E65D6 /* HomeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CC72DC2559B53A001E65D6 /* HomeNavigationController.swift */; };
-		36CC72E42559B605001E65D6 /* Decorator in Resources */ = {isa = PBXBuildFile; fileRef = 36CC72E32559B605001E65D6 /* Decorator */; };
 		36CC72E82559D07C001E65D6 /* StringDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CC72E72559D07C001E65D6 /* StringDecorator.swift */; };
 		36CC72EE2559D393001E65D6 /* DecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CC72ED2559D393001E65D6 /* DecoratorTests.swift */; };
 		36CC72F22559D52E001E65D6 /* FacadeClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CC72F12559D52E001E65D6 /* FacadeClientApp.swift */; };
@@ -231,7 +230,6 @@
 		36CC72D42559B49F001E65D6 /* Uploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uploader.swift; sourceTree = "<group>"; };
 		36CC72D82559B50E001E65D6 /* Sorter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorter.swift; sourceTree = "<group>"; };
 		36CC72DC2559B53A001E65D6 /* HomeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationController.swift; sourceTree = "<group>"; };
-		36CC72E32559B605001E65D6 /* Decorator */ = {isa = PBXFileReference; lastKnownFileType = text; path = Decorator; sourceTree = "<group>"; };
 		36CC72E72559D07C001E65D6 /* StringDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringDecorator.swift; sourceTree = "<group>"; };
 		36CC72ED2559D393001E65D6 /* DecoratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorTests.swift; sourceTree = "<group>"; };
 		36CC72F12559D52E001E65D6 /* FacadeClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeClientApp.swift; sourceTree = "<group>"; };
@@ -914,7 +912,6 @@
 		36CC72E22559B5F0001E65D6 /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
-				36CC72E32559B605001E65D6 /* Decorator */,
 				363587E0255DB4A000567587 /* Client */,
 				363587C7255DB20200567587 /* StringDecorators */,
 			);
@@ -1035,7 +1032,6 @@
 			files = (
 				36B57D602549D25000ED0830 /* Facade in Resources */,
 				36B57D2D2549C78600ED0830 /* Composite in Resources */,
-				36CC72E42559B605001E65D6 /* Decorator in Resources */,
 				36B57D242549C72200ED0830 /* Adapter in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
