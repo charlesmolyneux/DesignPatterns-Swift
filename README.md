@@ -5,7 +5,7 @@
 This project features examples of implementing the most commonly used design patterns using Swift.
 Included is an xcode project with examples of the patterns being used as well as some high-level documentation available on this repostitory page! 
 I'll be adding to these pages as I make more time to provide more in-depth examples. 
-Any feedback is welcome, 
+Any feedback is welcomed! 
 
 ## What Are Design Patterns
 Design patterns help provide solutions to reoccurring problems that often appear during Software Design. 
