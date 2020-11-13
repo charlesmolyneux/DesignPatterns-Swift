@@ -1,5 +1,5 @@
 
-# ![Design Patterns](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Images/logo.png)
+# ![Design Patterns](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Images/designlogo.png)
 
 ##
 
