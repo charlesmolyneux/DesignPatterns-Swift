@@ -17,9 +17,9 @@ Design patterns can help provide solutions to reoccurring problems that often ap
 ## Structural
 #####  Intent: Structural patterns assist in constructing objects into larger components, promoting flexibility and interoperability.
 
- - [Adapter](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Builder.md)
+ - [Adapter (To be Written)](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Builder.md)
  - [Decorator](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Decorator.md)
- - [Facade](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Facade.md)
+ - [Facade (To be Written)](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Facade.md)
  - [Composite](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Composite.md)
  - Proxy - To Be Implemented
  - Bridge  - To Be Implemented
