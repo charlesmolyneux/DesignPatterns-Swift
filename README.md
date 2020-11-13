@@ -1,8 +1,6 @@
 
 # ![Design Patterns](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Images/designlogo.png)
 
-##
-
 This project features examples of implementing the most commonly used design patterns using Swift. 
 
 Design patterns can help provide solutions to reoccurring problems that often appear during Software Design and development. This repository heavily inspired from the examples provided at refactoring.guru[<sup>1</sup>](#1) will hopefully give you a better understanding of how these patterns can be applied to real world problems. 
