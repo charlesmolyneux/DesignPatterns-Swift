@@ -70,7 +70,6 @@
 		36B57D192549BFE200ED0830 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B57D182549BFE200ED0830 /* Composite.swift */; };
 		36B57D1D2549C4D000ED0830 /* CompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B57D1C2549C4D000ED0830 /* CompositeTests.swift */; };
 		36B57D242549C72200ED0830 /* Adapter in Resources */ = {isa = PBXBuildFile; fileRef = 36B57D232549C72200ED0830 /* Adapter */; };
-		36B57D2D2549C78600ED0830 /* Composite in Resources */ = {isa = PBXBuildFile; fileRef = 36B57D2C2549C78600ED0830 /* Composite */; };
 		36B57D382549C8C000ED0830 /* ArcadeGameQueryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B57D372549C8C000ED0830 /* ArcadeGameQueryBuilder.swift */; };
 		36B57D452549C9EA00ED0830 /* SingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B57D442549C9EA00ED0830 /* SingletonTests.swift */; };
 		36B57D602549D25000ED0830 /* Facade in Resources */ = {isa = PBXBuildFile; fileRef = 36B57D5F2549D25000ED0830 /* Facade */; };
@@ -197,7 +196,6 @@
 		36B57D182549BFE200ED0830 /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
 		36B57D1C2549C4D000ED0830 /* CompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeTests.swift; sourceTree = "<group>"; };
 		36B57D232549C72200ED0830 /* Adapter */ = {isa = PBXFileReference; lastKnownFileType = text; path = Adapter; sourceTree = "<group>"; };
-		36B57D2C2549C78600ED0830 /* Composite */ = {isa = PBXFileReference; lastKnownFileType = text; path = Composite; sourceTree = "<group>"; };
 		36B57D372549C8C000ED0830 /* ArcadeGameQueryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeGameQueryBuilder.swift; sourceTree = "<group>"; };
 		36B57D442549C9EA00ED0830 /* SingletonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonTests.swift; sourceTree = "<group>"; };
 		36B57D5F2549D25000ED0830 /* Facade */ = {isa = PBXFileReference; lastKnownFileType = text; path = Facade; sourceTree = "<group>"; };
@@ -721,7 +719,6 @@
 		36B57D292549C75700ED0830 /* Composite */ = {
 			isa = PBXGroup;
 			children = (
-				36B57D2C2549C78600ED0830 /* Composite */,
 				36B57D182549BFE200ED0830 /* Composite.swift */,
 				36CC73312559DF4A001E65D6 /* Component.swift */,
 				36CC73352559DF6A001E65D6 /* Leaf.swift */,
@@ -1031,7 +1028,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				36B57D602549D25000ED0830 /* Facade in Resources */,
-				36B57D2D2549C78600ED0830 /* Composite in Resources */,
 				36B57D242549C72200ED0830 /* Adapter in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
