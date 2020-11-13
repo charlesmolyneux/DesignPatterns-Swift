@@ -1,0 +1,20 @@
+Name: State
+Pattern Type: Behavioural
+Aliases: N/A
+
+Summary:
+  State pattern lets an object alter its behaviour when its internal state changes.
+  You can create a new class for all possible states of an object and extract state-specific behaviours.
+  
+Example:
+  You have a Media Player App with a set of controls. The behaviour of these controls depends on the sate the the Player is in.
+  This has multiple states (Ready, Playing, Locked)
+
+Pros:
+  - SRP: Organises code related to particular states into own classes.
+  - OCP: Can introduce new states without impacting the existing state classes/context
+  - Simplies the contexts by removing state machine conditionals
+
+ Cons:
+ - Can be overkill if a state machine has a few number of states/does not change often.
+

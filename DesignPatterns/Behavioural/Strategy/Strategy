@@ -1,0 +1,24 @@
+Name: Strategy
+Pattern Type: Behavioural
+Aliases: Action, Transaction
+  
+Summary:
+  The Strategy pattern lets you put a family of algorithms into a class, and make their objects interchangable.
+ 
+Example:
+ You have a navigation app with automatic route planning. A user can enter a address and their route will be planned. As the app adds different journey types (walking, bus, car, flying, cycling). Each time you added a new route the navigator class increased in size dramatically.
+ 
+Solution:
+ Take a class that does something specific (navigate / plot route) in a lot of different ways, then extract all these different alogithims into their own classes (strategies).
+ 
+ The original class (context) has a reference to the strategy its using. The client is responsible for passing the desired strategy to the client.
+ 
+Pros:
+- OCP: Introduce new strategies into the app without breaking existing code.
+- Composition > Inheritance.
+- Isolate implementation details from the code that uses it.
+- Can swap out algorithms used at runtime.
+
+ Cons:
+ - Don't overcomplicate code when you only have a couple of algorithms that rarely change.
+ - Clients need to be made aware of the different strategies so the can select the correct one.

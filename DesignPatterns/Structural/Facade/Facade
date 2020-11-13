@@ -1,0 +1,20 @@
+Name: Facade
+Pattern Type: Structural
+Aliases: N/A
+ 
+Summary
+  Facade is a pattern in which we can provide a simplified interface to a library, framework or complex set of classes.
+
+Example
+  Imagine a Video Conversion framework. This Framework has many different dependencies (class dependencies).
+  Instead of making your code work directly with these classes you can create a Facade class to encapsulate the functionality you need and to hide away the rest.
+  
+ Pros:
+ - Can isolate your code from complexity of a subsystem
+ 
+ Cons:
+ - A Facade can become a 'God Object*' coupled to many/all classes of an app.
+ 
+  Note:
+   *God Object - an object that knows too much or does too much. The God object is an example of an anti-pattern*.
+   *Anti-pattern - A common response to a recurring problem that is usually ineffective/counter productive
