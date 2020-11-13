@@ -276,6 +276,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3607E50E255EED57003772DF /* DesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				36359C6325487C61006CB743 /* DesignPatterns */,
+				36359C6E25487C61006CB743 /* DesignPatternsTests */,
+			);
+			path = DesignPatterns;
+			sourceTree = "<group>";
+		};
 		361C65EF255C3C0900257ED1 /* Commands */ = {
 			isa = PBXGroup;
 			children = (
@@ -617,9 +626,8 @@
 		36359C5725487C61006CB743 = {
 			isa = PBXGroup;
 			children = (
+				3607E50E255EED57003772DF /* DesignPatterns */,
 				3607E4E9255EE1F8003772DF /* README.md */,
-				36359C6325487C61006CB743 /* DesignPatterns */,
-				36359C6E25487C61006CB743 /* DesignPatternsTests */,
 				36359C6225487C61006CB743 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1321,7 +1329,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DesignPatterns/Info.plist;
+				INFOPLIST_FILE = DesignPatterns/DesignPatterns/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1347,7 +1355,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DesignPatterns/Info.plist;
+				INFOPLIST_FILE = DesignPatterns/DesignPatterns/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1368,7 +1376,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HV6GV68W4Q;
-				INFOPLIST_FILE = DesignPatternsTests/Info.plist;
+				INFOPLIST_FILE = DesignPatterns/DesignPatternsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1387,7 +1395,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HV6GV68W4Q;
-				INFOPLIST_FILE = DesignPatternsTests/Info.plist;
+				INFOPLIST_FILE = DesignPatterns/DesignPatternsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
