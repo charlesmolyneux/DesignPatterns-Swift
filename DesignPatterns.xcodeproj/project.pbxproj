@@ -72,11 +72,9 @@
 		36B57D1D2549C4D000ED0830 /* CompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B57D1C2549C4D000ED0830 /* CompositeTests.swift */; };
 		36B57D242549C72200ED0830 /* Adapter in Resources */ = {isa = PBXBuildFile; fileRef = 36B57D232549C72200ED0830 /* Adapter */; };
 		36B57D2D2549C78600ED0830 /* Composite in Resources */ = {isa = PBXBuildFile; fileRef = 36B57D2C2549C78600ED0830 /* Composite */; };
-		36B57D342549C7D100ED0830 /* Builder in Resources */ = {isa = PBXBuildFile; fileRef = 36B57D332549C7D100ED0830 /* Builder */; };
 		36B57D382549C8C000ED0830 /* ArcadeGameQueryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B57D372549C8C000ED0830 /* ArcadeGameQueryBuilder.swift */; };
 		36B57D412549C98300ED0830 /* Singleton in Resources */ = {isa = PBXBuildFile; fileRef = 36B57D402549C98300ED0830 /* Singleton */; };
 		36B57D452549C9EA00ED0830 /* SingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B57D442549C9EA00ED0830 /* SingletonTests.swift */; };
-		36B57D4E2549CB8800ED0830 /* Prototype in Resources */ = {isa = PBXBuildFile; fileRef = 36B57D4D2549CB8800ED0830 /* Prototype */; };
 		36B57D602549D25000ED0830 /* Facade in Resources */ = {isa = PBXBuildFile; fileRef = 36B57D5F2549D25000ED0830 /* Facade */; };
 		36B57EDA254ADD1800ED0830 /* FileFormatConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B57ED9254ADD1800ED0830 /* FileFormatConverter.swift */; };
 		36B57EDE254ADD6600ED0830 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B57EDD254ADD6600ED0830 /* CartManager.swift */; };
@@ -207,11 +205,9 @@
 		36B57D1C2549C4D000ED0830 /* CompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeTests.swift; sourceTree = "<group>"; };
 		36B57D232549C72200ED0830 /* Adapter */ = {isa = PBXFileReference; lastKnownFileType = text; path = Adapter; sourceTree = "<group>"; };
 		36B57D2C2549C78600ED0830 /* Composite */ = {isa = PBXFileReference; lastKnownFileType = text; path = Composite; sourceTree = "<group>"; };
-		36B57D332549C7D100ED0830 /* Builder */ = {isa = PBXFileReference; lastKnownFileType = text; path = Builder; sourceTree = "<group>"; };
 		36B57D372549C8C000ED0830 /* ArcadeGameQueryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeGameQueryBuilder.swift; sourceTree = "<group>"; };
 		36B57D402549C98300ED0830 /* Singleton */ = {isa = PBXFileReference; lastKnownFileType = text; path = Singleton; sourceTree = "<group>"; };
 		36B57D442549C9EA00ED0830 /* SingletonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonTests.swift; sourceTree = "<group>"; };
-		36B57D4D2549CB8800ED0830 /* Prototype */ = {isa = PBXFileReference; lastKnownFileType = text; path = Prototype; sourceTree = "<group>"; };
 		36B57D5F2549D25000ED0830 /* Facade */ = {isa = PBXFileReference; lastKnownFileType = text; path = Facade; sourceTree = "<group>"; };
 		36B57ED9254ADD1800ED0830 /* FileFormatConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileFormatConverter.swift; sourceTree = "<group>"; };
 		36B57EDD254ADD6600ED0830 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
@@ -742,7 +738,6 @@
 		36B57D302549C7C600ED0830 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
-				36B57D332549C7D100ED0830 /* Builder */,
 				36358758255D9C4800567587 /* Client */,
 				36358738255D96D300567587 /* Builders */,
 			);
@@ -762,7 +757,6 @@
 		36B57D4A2549CAC700ED0830 /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
-				36B57D4D2549CB8800ED0830 /* Prototype */,
 				36358726255D7DA400567587 /* Objects */,
 			);
 			path = Prototype;
@@ -1048,10 +1042,8 @@
 			files = (
 				36B57D412549C98300ED0830 /* Singleton in Resources */,
 				36CC72C02559A63F001E65D6 /* Strategy in Resources */,
-				36B57D342549C7D100ED0830 /* Builder in Resources */,
 				36B57D602549D25000ED0830 /* Facade in Resources */,
 				36B57D2D2549C78600ED0830 /* Composite in Resources */,
-				36B57D4E2549CB8800ED0830 /* Prototype in Resources */,
 				36B57F08254AF5BF00ED0830 /* State in Resources */,
 				36CC72E42559B605001E65D6 /* Decorator in Resources */,
 				36B57EE8254ADD8300ED0830 /* Observer in Resources */,

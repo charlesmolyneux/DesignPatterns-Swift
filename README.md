@@ -3,9 +3,7 @@
 
 This project features examples of implementing the most commonly used design patterns using Swift. 
 
-Design patterns can help provide solutions to reoccurring problems that often appear during Software Design and development. This repository heavily inspired from the examples provided at refactoring.guru [^1] will hopefully give you a better understanding of how these patterns can be applied to real world problems. 
-
-[^1]:  [https://refactoring.guru/design-patterns](https://refactoring.guru/design-patterns)
+Design patterns can help provide solutions to reoccurring problems that often appear during Software Design and development. This repository heavily inspired from the examples provided at refactoring.guru[<sup>1</sup>](#1) will hopefully give you a better understanding of how these patterns can be applied to real world problems. 
 
 ## Creational
 #####  Intent: Creational patterns provide methods to help increase the reusability of your code by making object creation simpler and more flexible.
@@ -30,7 +28,7 @@ Design patterns can help provide solutions to reoccurring problems that often ap
 ## Behavioural
 #####  Intent: Behavioural patterns are concerned with the assignment of responsibilities, separating responsibilities and algorithms into their own classes.
 
- - [Chain of Responsibility](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/ChainOfCommand.md)
+ - [Chain of Responsibility](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Chain%20Of%20Command.md)
 - [Command](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Command.md)
 - Observer
 - State
@@ -43,3 +41,5 @@ Design patterns can help provide solutions to reoccurring problems that often ap
 
 
 
+##
+<a class="anchor" id="1"></a> [Refactoring Guru](https://refactoring.guru/design-patterns)
