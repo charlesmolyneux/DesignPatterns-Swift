@@ -69,7 +69,6 @@
 		36359CBB25487F03006CB743 /* AdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36359CBA25487F03006CB743 /* AdapterTests.swift */; };
 		36B57D192549BFE200ED0830 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B57D182549BFE200ED0830 /* Composite.swift */; };
 		36B57D1D2549C4D000ED0830 /* CompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B57D1C2549C4D000ED0830 /* CompositeTests.swift */; };
-		36B57D242549C72200ED0830 /* Adapter in Resources */ = {isa = PBXBuildFile; fileRef = 36B57D232549C72200ED0830 /* Adapter */; };
 		36B57D382549C8C000ED0830 /* ArcadeGameQueryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B57D372549C8C000ED0830 /* ArcadeGameQueryBuilder.swift */; };
 		36B57D452549C9EA00ED0830 /* SingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B57D442549C9EA00ED0830 /* SingletonTests.swift */; };
 		36B57D602549D25000ED0830 /* Facade in Resources */ = {isa = PBXBuildFile; fileRef = 36B57D5F2549D25000ED0830 /* Facade */; };
@@ -195,7 +194,6 @@
 		36359CBA25487F03006CB743 /* AdapterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterTests.swift; sourceTree = "<group>"; };
 		36B57D182549BFE200ED0830 /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
 		36B57D1C2549C4D000ED0830 /* CompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeTests.swift; sourceTree = "<group>"; };
-		36B57D232549C72200ED0830 /* Adapter */ = {isa = PBXFileReference; lastKnownFileType = text; path = Adapter; sourceTree = "<group>"; };
 		36B57D372549C8C000ED0830 /* ArcadeGameQueryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeGameQueryBuilder.swift; sourceTree = "<group>"; };
 		36B57D442549C9EA00ED0830 /* SingletonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonTests.swift; sourceTree = "<group>"; };
 		36B57D5F2549D25000ED0830 /* Facade */ = {isa = PBXFileReference; lastKnownFileType = text; path = Facade; sourceTree = "<group>"; };
@@ -708,7 +706,6 @@
 		36B57D202549C71100ED0830 /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
-				36B57D232549C72200ED0830 /* Adapter */,
 				36358868255EBF8700567587 /* Client */,
 				36358881255EC0BC00567587 /* PurchaseAdapter */,
 				3635887A255EBFDD00567587 /* IncompatiableFramework */,
@@ -1028,7 +1025,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				36B57D602549D25000ED0830 /* Facade in Resources */,
-				36B57D242549C72200ED0830 /* Adapter in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
