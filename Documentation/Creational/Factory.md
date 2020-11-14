@@ -64,7 +64,44 @@ You have an Arcade Game, 'Monsters Attack'. However, you have different variatio
 Sometimes you have 'Legendary Monster' types and 'Weakling Monster' types.
 
 ```
-To be Written
+//Common Factory Interface
+protocol AbstractMonsterFactory {
+	func create(monster: MonsterType) -> Monster
+}
+
+class LegendaryMonsterFactory {
+	func create(monster: MonsterType) -> Monster {
+		switch monster {
+		 case .dragon:
+		   return LegendaryDragon()
+		   ...
+		   ...
+       }
+   }
+}
+
+class WeakMonsterFactory {
+	func create(monster: MonsterType) -> Monster {
+		switch monster {
+		 case .dragon:
+		   return NewtLizard()
+		   ...
+		   ...
+	  }
+   }
+}
+
+class MonsterGameApp {
+	var factory: AbstractMonsterFactory
+
+	func update(_ factory: AbstractMonsterFactory) {
+		self.factory = factory
+	}
+
+	func conjure(monster: MonsterType) -> Monster {
+	  return factory.conjure(monster)
+	}
+
 ```
 
 **PROS**
