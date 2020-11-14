@@ -28,7 +28,7 @@ I hope it will give you a better understanding of how these patterns can be appl
  - [Decorator](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Decorator.md)
  - [Facade (To be Written)](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Facade.md)
  - [Composite](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Composite.md)
- - Proxy - To Be Implemented
+ - [Proxy](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Proxy.md) - To Be Implemented & Written
  - Bridge  - To Be Implemented
  - Flyweight - To Be Implemented
 
