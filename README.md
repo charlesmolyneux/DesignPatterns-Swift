@@ -3,13 +3,13 @@
 
 ## Introduction
 This project features examples of implementing the most commonly used design patterns using Swift.
-Included is an xcode project with examples of the patterns being used as well as some high-level documentation available on this repostitory page! 
-I'll be adding to these pages as I make more time to provide more in-depth examples. 
-Any feedback is welcomed! 
+Included is an xcode project with examples of the patterns being used as well as some high-level documentation available on this repostitory page!
+I'll be adding to these pages as I make more time to provide more in-depth examples.
+Any feedback is welcomed!
 
 ## What Are Design Patterns
-Design patterns help provide solutions to reoccurring problems that often appear during Software Design. 
-This repository has taken inspiration from examples provided at refactoring.guru[<sup>1</sup>](#1) as well as the Gang of Four book[<sup>2</sup>](#2). 
+Design patterns help provide solutions to reoccurring problems that often appear during Software Design.
+This repository has taken inspiration from examples provided at refactoring.guru[<sup>1</sup>](#1) as well as the Gang of Four book[<sup>2</sup>](#2).
 I hope it will give you a better understanding of how these patterns can be applied to real world problems in a simple manner.
 
 ## Creational
@@ -24,7 +24,7 @@ I hope it will give you a better understanding of how these patterns can be appl
 ## Structural
 #####  Intent: Structural patterns assist in constructing objects into larger components, promoting flexibility and interoperability.
 
- - [Adapter (To be Written)](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Builder.md)
+ - [Adapter (To be Written)](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Adapter.md)
  - [Decorator](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Decorator.md)
  - [Facade (To be Written)](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Facade.md)
  - [Composite](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Composite.md)
@@ -53,4 +53,3 @@ I hope it will give you a better understanding of how these patterns can be appl
 <a class="anchor" id="1"></a> [Refactoring Guru](https://refactoring.guru/design-patterns)
 
 <a class="anchor" id="2"></a> [Gang of Four](https://www.amazon.co.uk/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8)
-
