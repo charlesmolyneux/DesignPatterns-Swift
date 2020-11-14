@@ -24,7 +24,7 @@ I hope it will give you a better understanding of how these patterns can be appl
 ## Structural
 #####  Intent: Structural patterns assist in constructing objects into larger components, promoting flexibility and interoperability.
 
- - [Adapter (To be Written)](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Adapter.md)
+ - [Adapter](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Adapter.md)
  - [Decorator](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Decorator.md)
  - [Facade (To be Written)](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Facade.md)
  - [Composite](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Composite.md)
