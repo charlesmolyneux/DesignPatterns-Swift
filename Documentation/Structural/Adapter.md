@@ -7,7 +7,7 @@ Wrapper**
 The **Adapter Pattern** allows us to use objects with incompatible interfaces.
 This problem may arise when we need to use a 3rd party library which we have no control over, however our client cannot modify the incompatible libraries source code.
 
-The **Adapter Pattern** is shares some similarities to the [Proxy]() pattern. A key difference being that the Proxy Pattern uses the same interface throughout, just controls access to another service.
+The **Adapter Pattern** is shares some similarities to the [Proxy](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Proxy.md) pattern. A key difference being that the Proxy Pattern uses the same interface throughout, just controls access to another service.
 
 ### Pattern Objective
 Allow us to use incompatible frameworks/classes without modifying existing code.
