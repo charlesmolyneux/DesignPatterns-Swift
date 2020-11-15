@@ -1,6 +1,8 @@
 
 # ![Design Patterns](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Images/designlogo.png)
 
+# This is a work in progress, expect iteration 1 to be complete by November 21st. 
+
 ## Introduction
 This project features examples of implementing the most commonly used design patterns using Swift.
 Included is an xcode project with examples of the patterns being used as well as some high-level documentation available on this repostitory page!
