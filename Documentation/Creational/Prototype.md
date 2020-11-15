@@ -1,12 +1,13 @@
-# Prototype - Creational
+
+## Prototype - Creational
 **Aliases:
 Clone**
 
 ## Summary
-The prototype pattern allows us to copy existing objects without making your code dependent on those classes.
+The **Prototype** pattern allows us to copy existing objects without making your code dependent on those classes.
 
 ### Pattern Objective
-The **Prototype** pattern is used to avoid subclassing object creators (such as the [Factory Method](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Factory.md) does).
+The **Prototype** pattern is used to avoid subclassing object creators (such as the [Factory Method](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Creational/Factory.md) does).
  It also aims to reduce the cost of creating new objects in the standard way.
 
 We are able to use a set of pre-built objects as prototypes, each of these objects may be configured differently. Rather than having subclasses which match these configurations we can just clone the appropriate prototype.
