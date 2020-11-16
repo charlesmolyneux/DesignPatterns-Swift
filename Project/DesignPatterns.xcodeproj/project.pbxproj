@@ -130,6 +130,7 @@
 		36F04A8A2562E170003D0207 /* Decorator.md in Resources */ = {isa = PBXBuildFile; fileRef = 36F04A7B2562E170003D0207 /* Decorator.md */; };
 		36F04A8B2562E170003D0207 /* Adapter.md in Resources */ = {isa = PBXBuildFile; fileRef = 36F04A7C2562E170003D0207 /* Adapter.md */; };
 		36F04A8C2562E170003D0207 /* Proxy.md in Resources */ = {isa = PBXBuildFile; fileRef = 36F04A7D2562E170003D0207 /* Proxy.md */; };
+		36F04A922562E740003D0207 /* VisitoryIterationOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F04A912562E740003D0207 /* VisitoryIterationOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -269,6 +270,7 @@
 		36F04A7B2562E170003D0207 /* Decorator.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Decorator.md; sourceTree = "<group>"; };
 		36F04A7C2562E170003D0207 /* Adapter.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Adapter.md; sourceTree = "<group>"; };
 		36F04A7D2562E170003D0207 /* Proxy.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Proxy.md; sourceTree = "<group>"; };
+		36F04A912562E740003D0207 /* VisitoryIterationOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitoryIterationOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -798,6 +800,7 @@
 				36B57F06254AF49000ED0830 /* State */,
 				36B57EE4254ADD7300ED0830 /* Observer */,
 				36CC72C32559A642001E65D6 /* Strategy */,
+				36F04A952562E744003D0207 /* Visitory */,
 			);
 			path = Behavioural;
 			sourceTree = "<group>";
@@ -1007,6 +1010,14 @@
 			path = Structural;
 			sourceTree = "<group>";
 		};
+		36F04A952562E744003D0207 /* Visitory */ = {
+			isa = PBXGroup;
+			children = (
+				36F04A912562E740003D0207 /* VisitoryIterationOne.swift */,
+			);
+			path = Visitory;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1193,6 +1204,7 @@
 				3635874A255D97C600567587 /* ArcadeGameService.swift in Sources */,
 				36CC72F62559D547001E65D6 /* StringFormatter.swift in Sources */,
 				363587C1255DB1B400567587 /* DinoDragonSnake.swift in Sources */,
+				36F04A922562E740003D0207 /* VisitoryIterationOne.swift in Sources */,
 				36CC70452557FBE1001E65D6 /* PlayGameRequest.swift in Sources */,
 				36358808255DCB0B00567587 /* DataFormat.swift in Sources */,
 				36359CA725487DF5006CB743 /* Query.swift in Sources */,
