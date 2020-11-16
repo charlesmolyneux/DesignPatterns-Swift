@@ -14,15 +14,15 @@ class CompositeConceptual: XCTestCase {
   func test_compositeTree_withMultipleBranches_totalsCorrectly() {
     let client = CompositeAppExample()
     
-    let branch1 = Composite()
+    let branch1 = Branch()
     branch1.add(component: Leaf())
     branch1.add(component: Leaf())
     branch1.add(component: Leaf())
 
-    let branch2 = Composite()
+    let branch2 = Branch()
     branch1.add(component: Leaf())
     
-    let tree = Composite()
+    let tree = Branch()
     tree.add(component: branch1)
     tree.add(component: branch2)
     

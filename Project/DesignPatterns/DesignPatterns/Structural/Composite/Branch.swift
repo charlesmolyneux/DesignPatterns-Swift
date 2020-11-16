@@ -1,12 +1,4 @@
-/*
- The Composite Class represents the complex components that may or may not have children.
- The composite class delegates the work to their children and then sums-up the result
- */
-
-/*
-  Rename - Branch(?)
- */
-class Composite: Component {
+class Branch: Component {
   var parent: Component?
   
   private var children: [Component] = []
