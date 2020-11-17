@@ -42,8 +42,8 @@ I hope it will give you a better understanding of how these patterns can be appl
 - [Observer](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Behavioural/Observer.md)
 - [State](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Behavioural/State.md)
 - [Strategy](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Behavioural/Strategy.md)
+- [Visitor](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Behavioural/Visitor.md)
 - Template Method - To Be Implemented
-- [Visitor](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Behavioural/Visitor.md) - Work in Progress
 -  Iterator - To Be Implemented
 - Mediator - To Be Implemented
 - Memento - To Be Implemented
