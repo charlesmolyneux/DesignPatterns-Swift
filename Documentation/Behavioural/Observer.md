@@ -2,12 +2,12 @@
 **Aliases:
 Event-Subscriber, Listener**
 
+### [View Code Example](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Behavioural/Observer)
+
 ## Summary
    The **Observer** Pattern lets you define a subscription mechanism to notify 'n' objects about events these objects are observing.
 
 The Observer pattern is best used when there is a one-to-many relationship to an object that may be regularly modified (i.e. Cart Balance).
-
-### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Behavioural/Observer)
 
 ##### Examples
   - A Games Console is out of stock on a website, users can subscribe to be notified about stock changes.

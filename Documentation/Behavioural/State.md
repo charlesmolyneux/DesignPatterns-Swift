@@ -1,10 +1,10 @@
 # State - Behavioural
 
+### [View Code Example](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Behavioural/State)
+
 ## Summary
  The **State** Pattern allows for objects to change its behaviour when its internal state changes.
- Each **State** can be its own class and contain the relevant State specific behaviour.
-
- ### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Behavioural/State)
+ Each different **State** should be its own class and contain the relevant State specific behaviour.
 
 ##### Examples
   - A Video Game Character (NPC) might have a number of 'States'.

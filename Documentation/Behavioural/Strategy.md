@@ -3,7 +3,7 @@
 ## Summary
 The **Strategy Pattern** allows you to divide a group of related algorithms so each algorithm has its own separate class. The client can then determine which algorithm to use and change as necessary.
 
-### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Behavioural/Strategy)
+### [View Code Example](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Behavioural/Strategy)
 
 ### Pattern Objective
 The **Strategy Pattern** looks to separate related algorithms into their own class and move them outside of the class *(context)* that uses them to perform a task.

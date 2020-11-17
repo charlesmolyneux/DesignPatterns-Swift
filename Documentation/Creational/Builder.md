@@ -1,10 +1,11 @@
 
 
 ## Builder - Creational
+### [View Code Example](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Creational/Builder)
+
 ## Summary
 Allows for the creation of complex objects in a step by step manner.
 
-### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Creational/Builder)
 
 ### Pattern Objective
 The **Builder Pattern** promotes reuse through reusing the construction code.

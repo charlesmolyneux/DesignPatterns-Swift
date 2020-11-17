@@ -1,5 +1,6 @@
 
 # Proxy - Creational
+### [View Code Example](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Structural/Proxy)
 
 ## Summary
 The Proxy Pattern allows us to restrict access control to another object, as well as being a placeholder for another object.
@@ -11,7 +12,6 @@ The Proxy Pattern is similar to the [Adapter pattern](https://github.com/charles
 **Proxy** is similar to the [Facade pattern](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Creational/Facade.md). 
 Both patterns aim to simplify a complex entity. However, Proxy uses the **same interface** as it's service object . Whilst Facade defines its own new interface. 
 
-### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Structural/Proxy)
 
 ### Pattern Objective
 Provide a mechanism for controlling access, especially useful when you only want clients to be able to use specific parts of a service object. (protection proxy)

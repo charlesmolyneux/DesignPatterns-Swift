@@ -1,11 +1,10 @@
 
-
 ## Visitor - Behavioural
+
+### [View Code Example](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Behavioural/Visitor)
 
 ## Summary
 The **Visitor Pattern** provides a method for us to separate algorithms from the objects on which they perform on.
-
-### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Behavioural/Visitor)
 
 ### Pattern Objective
 The Visitor Pattern allows us to separate algorithms and secondary behaviours from a class. Providing us a template to move these algorithms and auxiliary behaviours into their own classes. By extracting these 'secondary' behaviours we are able to re-use and add additional behaviours without breaking (or modifying) the existing object.

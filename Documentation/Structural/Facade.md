@@ -1,5 +1,7 @@
 # Facade - Creational
-TBC
+
+### [View Code Example](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Structural/Facade)
+
 ## Summary
 A **Facade** is used to provide a simplified interace, often to a library, framework or complex set of classes.
 
@@ -9,7 +11,6 @@ A **Facade** is used to provide a simplified interace, often to a library, frame
  **Facade** is similar to the [Proxy pattern](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Creational/Proxy.md). 
  Both patterns aim to simplify a complex entity. However, whilst Proxy uses the same interface as it's service object the Facade defines its own new interface. 
 
-### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Structural/Facade)
 
 ### Example
 Imagine a Video Conversion framework. This Framework has many different dependencies (class dependencies).

@@ -1,11 +1,11 @@
 # Chain Of Responsibility - Behavioural
 **Aliases: CoR, Chain of Command, Chain of Responsibility**
 
+### [View Code Example](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Behavioural/CoR)
+
 ## Summary
 Chain of Responsibility (CoR) allows us to pass requests along a chain of handlers.
 The handler decides whether to process the request or to pass it along the chain.
-
-### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Behavioural/CoR)
 
 ### Pattern Objective
 CoR relies on transforming behaviours into stand-alone objects (*handlers*).

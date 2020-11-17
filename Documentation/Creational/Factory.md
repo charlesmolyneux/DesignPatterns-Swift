@@ -4,10 +4,11 @@
 **Aliases:
 Virtual Constructor**
 
+### [View Code Example](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Creational/Factory/FactoryExample)
+
 ## Summary
 **Factory Method** replaces direct object creation with a factory method.
 
-### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Creational/Factory/FactoryExample)
 
 ### Pattern Objective
 **Factory Method** provides an interface for creating objects, allowing subclasses to decide which object should be instantiated. It allows for subclasses to decide how a parent object is creates and what type.
