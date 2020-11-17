@@ -321,9 +321,9 @@
 		3607E50E255EED57003772DF /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
-				36F04A6A2562E170003D0207 /* Documentation */,
 				36359C6325487C61006CB743 /* DesignPatterns */,
 				36359C6E25487C61006CB743 /* DesignPatternsTests */,
+				36F04A6A2562E170003D0207 /* Documentation */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -888,12 +888,12 @@
 		36B57EE1254ADD6900ED0830 /* Behavioural */ = {
 			isa = PBXGroup;
 			children = (
-				367CDBF52563EB540010D9E8 /* Visitor */,
 				36CC703B2557F3BA001E65D6 /* CoR */,
 				36CC7050255807B8001E65D6 /* Command */,
 				36B57F06254AF49000ED0830 /* State */,
 				36B57EE4254ADD7300ED0830 /* Observer */,
 				36CC72C32559A642001E65D6 /* Strategy */,
+				367CDBF52563EB540010D9E8 /* Visitor */,
 			);
 			path = Behavioural;
 			sourceTree = "<group>";
