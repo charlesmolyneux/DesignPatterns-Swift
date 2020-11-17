@@ -1,7 +1,7 @@
 class DocumentUploaderApp {
   private let documentUploader = Uploader()
   private let service = UploadService()
-  private let logger = FireBaseLogger()
+  private let logger = FirebaseAnalyticsService()
   
   private var documentData: [Data] = []
   

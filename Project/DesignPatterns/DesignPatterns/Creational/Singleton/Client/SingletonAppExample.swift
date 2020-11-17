@@ -23,10 +23,10 @@ class ArcadeFilteredListView {
 }
 
 public class ArcadeAnalyticsLogger {
-  private let logger: AnalyticsLogger
+  private let logger: AnalyticsService
   let shared = AnalyticsLoggerStore.shared
 
-  public init(logger: AnalyticsLogger) {
+  public init(logger: AnalyticsService) {
     self.logger = logger
   }
   

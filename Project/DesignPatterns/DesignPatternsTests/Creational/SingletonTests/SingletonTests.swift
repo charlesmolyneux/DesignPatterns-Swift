@@ -5,8 +5,8 @@ class SingletonTests: XCTestCase {
   let mockLogger = MockAnalyticsLogger()
 
   func test_instanceIsTheSame() {
-    let analyticsLoggerOne = ArcadeAnalyticsLogger(logger: FireBaseLogger())
-    let analyticsLoggerTwo = ArcadeAnalyticsLogger(logger: FireBaseLogger())
+    let analyticsLoggerOne = ArcadeAnalyticsLogger(logger: FirebaseAnalyticsService())
+    let analyticsLoggerTwo = ArcadeAnalyticsLogger(logger: FirebaseAnalyticsService())
     XCTAssertTrue(analyticsLoggerOne.shared === analyticsLoggerTwo.shared)
   }
   

@@ -1,8 +1,8 @@
 class LogDocumentUploadCommand: Command {
-  private let logger: AnalyticsLogger
+  private let logger: AnalyticsService
   private let count: Int
   
-  public init(logger: AnalyticsLogger, count: Int) {
+  public init(logger: AnalyticsService, count: Int) {
     self.logger = logger
     self.count = count
   }

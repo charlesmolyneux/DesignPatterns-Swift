@@ -1,9 +1,9 @@
-public protocol AnalyticsLogger {
+public protocol AnalyticsService {
   func log(numberOfFiles: Int)
   func log(event: String)
 }
 
-public class FireBaseLogger: AnalyticsLogger {
+public class FirebaseAnalyticsService: AnalyticsService {
   public init() { }
   
   public func log(numberOfFiles: Int) {

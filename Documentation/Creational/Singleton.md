@@ -21,3 +21,8 @@ Singletons let you ensure that a class has only one instance and provides a glob
 - Singletons can mask bad design. e.g. components can know too much about each other.
 - Beware multi-threading. Must make sure multiple threads do not create a singleton object 'x' times.
 - Can increase unit testing complexity. May need a creative solution for mocking the singleton.
+
+Note:
+*[god-object](https://en.wikipedia.org/wiki/God_object) - an object that knows too much or does too much.
+The God object is an example of an anti-pattern*.
+*[Anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern) - A common response to a recurring problem that is usually ineffective/counter productive

@@ -1,6 +1,6 @@
 import DesignPatterns
 
-class MockAnalyticsLogger: AnalyticsLogger {
+class MockAnalyticsLogger: AnalyticsService {
   var loggedEvents: [String] = []
   
   func log(event: String) {
