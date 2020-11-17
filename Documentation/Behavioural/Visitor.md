@@ -3,20 +3,20 @@
 ## Visitor - Behavioural
 
 ## Summary
-The **Visitor Pattern** provides a method for us to separate algorithms from the objects on which they perform on. 
+The **Visitor Pattern** provides a method for us to separate algorithms from the objects on which they perform on.
 
 ### Pattern Objective
-The Visitor Pattern allows us to separate algorithms and secondary behaviours from a class. Providing us a template to move these algorithms and auxiliary behaviours into their own classes. By extracting these behaviours we are able to re-use some of these behaviours and add additional behaviours, without breaking (or modifying) the existing object.
+The Visitor Pattern allows us to separate algorithms and secondary behaviours from a class. Providing us a template to move these algorithms and auxiliary behaviours into their own classes. By extracting these 'secondary' behaviours we are able to re-use and add additional behaviours without breaking (or modifying) the existing object.
 
 This pattern also cleans up classes. This is achieved by allowing classes to be more focused on their singular 'main' job whilst additional auxiliary behaviours are extracted into their own 'visitor' classes.
 
-**Pseudo Code** 
+**Pseudo Code**
 ```
 protocol  MathComponent {
   func accept(_ visitor: Visitor) -> Int
 }
 
-//Concrete 'component'. Implements the 'accept' method so it calls the correct visitor method. 
+//Concrete 'component'. Implements the 'accept' method so it calls the correct visitor method.
 struct  IntegerValueComponent: MathComponent {
   let  myValue: Int
 
@@ -48,9 +48,9 @@ protocol  Visitor {
 }
 
 
-/*'Concrete Visitor' implementations. 
+/*'Concrete Visitor' implementations.
 These implement the same alogirithim many times,
-ensuring each concrete component class can be worked with. 
+ensuring each concrete component class can be worked with.
 */
 
 class  MultiplierVisitor: Visitor {
@@ -86,9 +86,9 @@ class  MyApplication {
 ##
 
 **PROS**
- - [x] SRP: Extract possibly duplicated behaviours into a singular class. 
- - [x] OCP: Can introduce new behaviours that can work on multiple objects of varying class types, without changing the classes themselves. 
- - [x] Allow you to perform operations on complex object/tree structures by applying the visitor to each object within the structure. 
+ - [x] SRP: Extract possibly duplicated behaviours into a singular class.
+ - [x] OCP: Can introduce new behaviours that can work on multiple objects of varying class types, without changing the classes themselves.
+ - [x] Allow you to perform operations on complex object/tree structures by applying the visitor to each object within the structure.
 
 **CONS**
  -  Can have issues with `private` fields/access to variables they're required to work with (when extracting).
