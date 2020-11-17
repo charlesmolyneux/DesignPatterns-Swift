@@ -5,6 +5,8 @@
 Chain of Responsibility (CoR) allows us to pass requests along a chain of handlers.
 The handler decides whether to process the request or to pass it along the chain.
 
+### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Behavioural/CoR)
+
 ### Pattern Objective
 CoR relies on transforming behaviours into stand-alone objects (*handlers*).
 Each handler is a single class with a single method to perform the check. Handlers are linked together as a chain, with each handler having a reference to the next one along the chain.

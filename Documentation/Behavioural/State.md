@@ -4,6 +4,8 @@
  The **State** Pattern allows for objects to change its behaviour when its internal state changes.
  Each **State** can be its own class and contain the relevant State specific behaviour.
 
+ ### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Behavioural/State)
+
 ##### Examples
   - A Video Game Character (NPC) might have a number of 'States'.
   -- Friendly, Hostile, Neutral or Deceased

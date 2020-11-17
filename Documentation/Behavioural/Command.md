@@ -5,6 +5,8 @@
 ## Summary
 Command turns 'requests' (or actions) into objects. These objects contain all the information they need to perform their request (or operation).
 
+### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Behavioural/Command)
+
 ### Pattern Objective
 The **Command** pattern seeks to separate concerns. In the example provided here it looks to separate the GUI and Business logic layers. This is achieved by extracting the UI objects (i.e. a Save/Undo/Redo buttons) logic into separate command objects that can trigger the request.
 

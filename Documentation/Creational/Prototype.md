@@ -6,6 +6,8 @@ Clone**
 ## Summary
 The **Prototype** pattern allows us to copy existing objects without making your code dependent on those classes.
 
+### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Creational/Prototype)
+
 ### Pattern Objective
 The **Prototype** pattern is used to avoid subclassing object creators (such as the [Factory Method](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Creational/Factory.md) does).
  It also aims to reduce the cost of creating new objects in the standard way.

@@ -6,6 +6,8 @@ Wrapper**
 ## Summary
 The Decorator Pattern provides a method for us to attach new behaviours to objects by placing objects inside 'wrapper' objects which contain additional behaviours.
 
+### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Structural/Decorator)
+
 ### Pattern Objective
 Provide a method to dynamically add additional behaviours to an object without affecting the behaviour of objects of the same class. This pattern helps us to adhere to the Single Responsibility Principle (SRP).
 

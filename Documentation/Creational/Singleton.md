@@ -3,6 +3,8 @@
 ## Summary
 Singletons let you ensure that a class has only one instance and provides a global access point to this instance.
 
+### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Creational/Singleton)
+
 ### Pattern Objective
 1. Helps enforce when your program should only have a single instance of a particular class available to all clients.
 2. Provides a method of adding stricter control over global variables.

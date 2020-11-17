@@ -7,6 +7,8 @@ Virtual Constructor**
 ## Summary
 **Factory Method** replaces direct object creation with a factory method.
 
+### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Creational/Factory/FactoryExample)
+
 ### Pattern Objective
 **Factory Method** provides an interface for creating objects, allowing subclasses to decide which object should be instantiated. It allows for subclasses to decide how a parent object is creates and what type.
 
@@ -52,6 +54,8 @@ public class MonsterFactory {
 
 
 ## Abstract Factory - Creational
+
+### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Creational/Factory/AbstractFactory)
 
 ### Summary & Pattern Objective
 The Abstract Family is similar to the Factory method. However, the **Abstract Factory** allows us to produce a family of related objects without specifying their concrete class.

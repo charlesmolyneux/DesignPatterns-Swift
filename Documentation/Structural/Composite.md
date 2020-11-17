@@ -7,6 +7,8 @@ Object Tree**
 The **Composite Pattern** provides a mechanism for composing objects into a tree structure.
 This allows us to work with this new 'tree object' as if it were a singular object.
 
+### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Structural/Composite)
+
 ### Pattern Objective
 The **Composite Pattern** aims to simplify your client codes interaction with complex objects.
 

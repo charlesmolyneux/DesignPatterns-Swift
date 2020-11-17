@@ -9,6 +9,8 @@ This problem may arise when we need to use a 3rd party library which we have no 
 
 The **Adapter Pattern** is shares some similarities to the [Proxy](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Proxy.md) pattern. A key difference being that the Proxy Pattern uses the same interface throughout.
 
+### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Structural/Adapter)
+
 ### Pattern Objective
 Allow us to use incompatible frameworks/classes without modifying existing code.
 

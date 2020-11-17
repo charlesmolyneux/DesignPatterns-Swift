@@ -8,6 +8,8 @@ By Proxy classes acting as a placeholder for another class we can before operati
 
 The Proxy Pattern is similar to the Adapter, the key difference being the Proxy pattern shares the same interface as the class it's acting as a placeholder for.
 
+### [Code](https://github.com/charlesmolyneux/DesignPatterns-Swift/tree/master/Project/DesignPatterns/DesignPatterns/Structural/Proxy)
+
 ### Pattern Objective
 ##
 
