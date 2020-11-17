@@ -67,6 +67,19 @@
 		36359CAB25487E10006CB743 /* AnalyticsLoggerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36359CAA25487E10006CB743 /* AnalyticsLoggerStore.swift */; };
 		36359CB025487E69006CB743 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36359CAF25487E69006CB743 /* Adapter.swift */; };
 		36359CBB25487F03006CB743 /* AdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36359CBA25487F03006CB743 /* AdapterTests.swift */; };
+		367CDC2B2563EED90010D9E8 /* AlertPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC2A2563EED90010D9E8 /* AlertPolicy.swift */; };
+		367CDC312563F7010010D9E8 /* SleepModeAlertPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC302563F7010010D9E8 /* SleepModeAlertPolicy.swift */; };
+		367CDC352563F7160010D9E8 /* LowBatteryAlertPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC342563F7160010D9E8 /* LowBatteryAlertPolicy.swift */; };
+		367CDC392563F7240010D9E8 /* TrainingModeVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC382563F7240010D9E8 /* TrainingModeVisitor.swift */; };
+		367CDC3D2563F73F0010D9E8 /* StandardAlertPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC3C2563F73F0010D9E8 /* StandardAlertPolicy.swift */; };
+		367CDC442563F7580010D9E8 /* MobileContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC432563F7580010D9E8 /* MobileContact.swift */; };
+		367CDC4D2563F7740010D9E8 /* MobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC4C2563F7740010D9E8 /* MobileApp.swift */; };
+		367CDC512563F7950010D9E8 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC502563F7950010D9E8 /* Alert.swift */; };
+		367CDC562563F7D50010D9E8 /* IncomingCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC552563F7D50010D9E8 /* IncomingCall.swift */; };
+		367CDC5C2563F7E10010D9E8 /* PushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC5B2563F7E10010D9E8 /* PushNotification.swift */; };
+		367CDC602563F7F10010D9E8 /* InstantMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC5F2563F7F10010D9E8 /* InstantMessage.swift */; };
+		367CDC652563F8120010D9E8 /* VisitorAppExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC642563F8120010D9E8 /* VisitorAppExample.swift */; };
+		367CDC6A2563F9820010D9E8 /* VisitorPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC682563F9820010D9E8 /* VisitorPatternTests.swift */; };
 		36B57D192549BFE200ED0830 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B57D182549BFE200ED0830 /* Branch.swift */; };
 		36B57D1D2549C4D000ED0830 /* CompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B57D1C2549C4D000ED0830 /* CompositeTests.swift */; };
 		36B57D382549C8C000ED0830 /* ArcadeGameQueryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B57D372549C8C000ED0830 /* ArcadeGameQueryBuilder.swift */; };
@@ -130,7 +143,7 @@
 		36F04A8A2562E170003D0207 /* Decorator.md in Resources */ = {isa = PBXBuildFile; fileRef = 36F04A7B2562E170003D0207 /* Decorator.md */; };
 		36F04A8B2562E170003D0207 /* Adapter.md in Resources */ = {isa = PBXBuildFile; fileRef = 36F04A7C2562E170003D0207 /* Adapter.md */; };
 		36F04A8C2562E170003D0207 /* Proxy.md in Resources */ = {isa = PBXBuildFile; fileRef = 36F04A7D2562E170003D0207 /* Proxy.md */; };
-		36F04A922562E740003D0207 /* VisitoryIterationOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F04A912562E740003D0207 /* VisitoryIterationOne.swift */; };
+		36F04AB32563D029003D0207 /* Visitor.md in Resources */ = {isa = PBXBuildFile; fileRef = 36F04AB22563D029003D0207 /* Visitor.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -207,6 +220,19 @@
 		36359CAA25487E10006CB743 /* AnalyticsLoggerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsLoggerStore.swift; sourceTree = "<group>"; };
 		36359CAF25487E69006CB743 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		36359CBA25487F03006CB743 /* AdapterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterTests.swift; sourceTree = "<group>"; };
+		367CDC2A2563EED90010D9E8 /* AlertPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPolicy.swift; sourceTree = "<group>"; };
+		367CDC302563F7010010D9E8 /* SleepModeAlertPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepModeAlertPolicy.swift; sourceTree = "<group>"; };
+		367CDC342563F7160010D9E8 /* LowBatteryAlertPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowBatteryAlertPolicy.swift; sourceTree = "<group>"; };
+		367CDC382563F7240010D9E8 /* TrainingModeVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingModeVisitor.swift; sourceTree = "<group>"; };
+		367CDC3C2563F73F0010D9E8 /* StandardAlertPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardAlertPolicy.swift; sourceTree = "<group>"; };
+		367CDC432563F7580010D9E8 /* MobileContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileContact.swift; sourceTree = "<group>"; };
+		367CDC4C2563F7740010D9E8 /* MobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileApp.swift; sourceTree = "<group>"; };
+		367CDC502563F7950010D9E8 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		367CDC552563F7D50010D9E8 /* IncomingCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingCall.swift; sourceTree = "<group>"; };
+		367CDC5B2563F7E10010D9E8 /* PushNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotification.swift; sourceTree = "<group>"; };
+		367CDC5F2563F7F10010D9E8 /* InstantMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantMessage.swift; sourceTree = "<group>"; };
+		367CDC642563F8120010D9E8 /* VisitorAppExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorAppExample.swift; sourceTree = "<group>"; };
+		367CDC682563F9820010D9E8 /* VisitorPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorPatternTests.swift; sourceTree = "<group>"; };
 		36B57D182549BFE200ED0830 /* Branch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
 		36B57D1C2549C4D000ED0830 /* CompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeTests.swift; sourceTree = "<group>"; };
 		36B57D372549C8C000ED0830 /* ArcadeGameQueryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeGameQueryBuilder.swift; sourceTree = "<group>"; };
@@ -270,7 +296,7 @@
 		36F04A7B2562E170003D0207 /* Decorator.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Decorator.md; sourceTree = "<group>"; };
 		36F04A7C2562E170003D0207 /* Adapter.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Adapter.md; sourceTree = "<group>"; };
 		36F04A7D2562E170003D0207 /* Proxy.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Proxy.md; sourceTree = "<group>"; };
-		36F04A912562E740003D0207 /* VisitoryIterationOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitoryIterationOne.swift; sourceTree = "<group>"; };
+		36F04AB22563D029003D0207 /* Visitor.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Visitor.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -734,6 +760,73 @@
 			path = Structural;
 			sourceTree = "<group>";
 		};
+		367CDBF52563EB540010D9E8 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				367CDC632563F8000010D9E8 /* Client */,
+				367CDBF62563EB540010D9E8 /* Visitor */,
+				367CDC092563EB900010D9E8 /* Components */,
+				367CDC472563F75C0010D9E8 /* Models */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		367CDBF62563EB540010D9E8 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				367CDC2A2563EED90010D9E8 /* AlertPolicy.swift */,
+				367CDC402563F7440010D9E8 /* ConcreteVisitors */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		367CDC092563EB900010D9E8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				367CDC502563F7950010D9E8 /* Alert.swift */,
+				367CDC542563F7A50010D9E8 /* ConcreteComponents */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		367CDC402563F7440010D9E8 /* ConcreteVisitors */ = {
+			isa = PBXGroup;
+			children = (
+				367CDC302563F7010010D9E8 /* SleepModeAlertPolicy.swift */,
+				367CDC342563F7160010D9E8 /* LowBatteryAlertPolicy.swift */,
+				367CDC382563F7240010D9E8 /* TrainingModeVisitor.swift */,
+				367CDC3C2563F73F0010D9E8 /* StandardAlertPolicy.swift */,
+			);
+			path = ConcreteVisitors;
+			sourceTree = "<group>";
+		};
+		367CDC472563F75C0010D9E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				367CDC432563F7580010D9E8 /* MobileContact.swift */,
+				367CDC4C2563F7740010D9E8 /* MobileApp.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		367CDC542563F7A50010D9E8 /* ConcreteComponents */ = {
+			isa = PBXGroup;
+			children = (
+				367CDC552563F7D50010D9E8 /* IncomingCall.swift */,
+				367CDC5B2563F7E10010D9E8 /* PushNotification.swift */,
+				367CDC5F2563F7F10010D9E8 /* InstantMessage.swift */,
+			);
+			path = ConcreteComponents;
+			sourceTree = "<group>";
+		};
+		367CDC632563F8000010D9E8 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				367CDC642563F8120010D9E8 /* VisitorAppExample.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
 		36B57D202549C71100ED0830 /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
@@ -795,12 +888,12 @@
 		36B57EE1254ADD6900ED0830 /* Behavioural */ = {
 			isa = PBXGroup;
 			children = (
+				367CDBF52563EB540010D9E8 /* Visitor */,
 				36CC703B2557F3BA001E65D6 /* CoR */,
 				36CC7050255807B8001E65D6 /* Command */,
 				36B57F06254AF49000ED0830 /* State */,
 				36B57EE4254ADD7300ED0830 /* Observer */,
 				36CC72C32559A642001E65D6 /* Strategy */,
-				36F04A952562E744003D0207 /* Visitory */,
 			);
 			path = Behavioural;
 			sourceTree = "<group>";
@@ -822,6 +915,7 @@
 				36CC70312557ED4F001E65D6 /* StateTests.swift */,
 				36CC70482557FDA3001E65D6 /* CoRTests.swift */,
 				36CC72CA2559AF89001E65D6 /* StrategyTests.swift */,
+				367CDC682563F9820010D9E8 /* VisitorPatternTests.swift */,
 			);
 			path = Behavioural;
 			sourceTree = "<group>";
@@ -978,6 +1072,7 @@
 		36F04A6D2562E170003D0207 /* Behavioural */ = {
 			isa = PBXGroup;
 			children = (
+				36F04AB22563D029003D0207 /* Visitor.md */,
 				36F04A6E2562E170003D0207 /* ChainOfCommand.md */,
 				36F04A6F2562E170003D0207 /* State.md */,
 				36F04A702562E170003D0207 /* Command.md */,
@@ -1008,14 +1103,6 @@
 				36F04A7D2562E170003D0207 /* Proxy.md */,
 			);
 			path = Structural;
-			sourceTree = "<group>";
-		};
-		36F04A952562E744003D0207 /* Visitory */ = {
-			isa = PBXGroup;
-			children = (
-				36F04A912562E740003D0207 /* VisitoryIterationOne.swift */,
-			);
-			path = Visitory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1119,6 +1206,7 @@
 				36F04A862562E170003D0207 /* Prototype.md in Resources */,
 				36F04A872562E170003D0207 /* Factory.md in Resources */,
 				36F04A832562E170003D0207 /* Strategy.md in Resources */,
+				36F04AB32563D029003D0207 /* Visitor.md in Resources */,
 				36F04A8C2562E170003D0207 /* Proxy.md in Resources */,
 				36F04A892562E170003D0207 /* Facade.md in Resources */,
 				36F04A812562E170003D0207 /* Command.md in Resources */,
@@ -1147,6 +1235,7 @@
 				363586F8255D647D00567587 /* HomeScreenView.swift in Sources */,
 				36C0E105255C3DBB00FA4FA4 /* CasinoGameError.swift in Sources */,
 				36C0E109255C3DCE00FA4FA4 /* MegaJackpotCasinoGame.swift in Sources */,
+				367CDC392563F7240010D9E8 /* TrainingModeVisitor.swift in Sources */,
 				36B57EDE254ADD6600ED0830 /* CartManager.swift in Sources */,
 				36CC72D12559B481001E65D6 /* UploadService.swift in Sources */,
 				36CC73322559DF4A001E65D6 /* Component.swift in Sources */,
@@ -1161,12 +1250,14 @@
 				36359C8725487C78006CB743 /* ArcadeGame.swift in Sources */,
 				36CC72E82559D07C001E65D6 /* StringDecorator.swift in Sources */,
 				363586CE255D5AB000567587 /* OfflineState.swift in Sources */,
+				367CDC3D2563F73F0010D9E8 /* StandardAlertPolicy.swift in Sources */,
 				36358781255DB06C00567587 /* RetroChair.swift in Sources */,
 				363587BA255DB18700567587 /* Snake.swift in Sources */,
 				36CC70412557F707001E65D6 /* Handlers.swift in Sources */,
 				363586DF255D63DA00567587 /* CartListener.swift in Sources */,
 				36CC705A255812BB001E65D6 /* DocumentUploaderApp.swift in Sources */,
 				36CC73152559D8BF001E65D6 /* AbstractFactory.swift in Sources */,
+				367CDC442563F7580010D9E8 /* MobileContact.swift in Sources */,
 				36C0E0F6255C3D7600FA4FA4 /* BalanceHandler.swift in Sources */,
 				36CC72FA2559D578001E65D6 /* AdapterAppExample.swift in Sources */,
 				36CC72C72559ACC7001E65D6 /* Strategy.swift in Sources */,
@@ -1187,12 +1278,14 @@
 				36CC73212559DB2C001E65D6 /* AbstractFurnitureAppExample.swift in Sources */,
 				3635870F255D661300567587 /* BubbleSortStrategy.swift in Sources */,
 				363587FC255DCABA00567587 /* PathProvider.swift in Sources */,
+				367CDC5C2563F7E10010D9E8 /* PushNotification.swift in Sources */,
 				36CC72D92559B50E001E65D6 /* Sorter.swift in Sources */,
 				363587A5255DB11A00567587 /* Monsters.swift in Sources */,
 				363586EB255D644B00567587 /* Product.swift in Sources */,
 				36CC72F22559D52E001E65D6 /* FacadeClientApp.swift in Sources */,
 				36C0E110255C3E2600FA4FA4 /* CasinoGame.swift in Sources */,
 				3635878C255DB09100567587 /* ModernChair.swift in Sources */,
+				367CDC652563F8120010D9E8 /* VisitorAppExample.swift in Sources */,
 				36CC730D2559D6C5001E65D6 /* Dragon.swift in Sources */,
 				36C0E0EA255C3D4800FA4FA4 /* LocationCheckHandler.swift in Sources */,
 				36C0E0F2255C3D6300FA4FA4 /* LimitsHandler.swift in Sources */,
@@ -1200,21 +1293,27 @@
 				3635873C255D96DD00567587 /* BaseQueryBuilder.swift in Sources */,
 				36CC73362559DF6A001E65D6 /* Leaf.swift in Sources */,
 				36358788255DB08400567587 /* RetroTable.swift in Sources */,
+				367CDC562563F7D50010D9E8 /* IncomingCall.swift in Sources */,
 				363587CF255DB23C00567587 /* UppercasedStringDecorator.swift in Sources */,
 				3635874A255D97C600567587 /* ArcadeGameService.swift in Sources */,
 				36CC72F62559D547001E65D6 /* StringFormatter.swift in Sources */,
+				367CDC2B2563EED90010D9E8 /* AlertPolicy.swift in Sources */,
+				367CDC352563F7160010D9E8 /* LowBatteryAlertPolicy.swift in Sources */,
 				363587C1255DB1B400567587 /* DinoDragonSnake.swift in Sources */,
-				36F04A922562E740003D0207 /* VisitoryIterationOne.swift in Sources */,
 				36CC70452557FBE1001E65D6 /* PlayGameRequest.swift in Sources */,
 				36358808255DCB0B00567587 /* DataFormat.swift in Sources */,
 				36359CA725487DF5006CB743 /* Query.swift in Sources */,
 				363586CA255D5A9F00567587 /* MediaPlayerState.swift in Sources */,
 				36358740255D96EE00567587 /* PagedQueryBuilder.swift in Sources */,
 				36C0E101255C3DAC00FA4FA4 /* Location.swift in Sources */,
+				367CDC312563F7010010D9E8 /* SleepModeAlertPolicy.swift in Sources */,
 				36358804255DCAFE00567587 /* FileUploadErrors.swift in Sources */,
 				3635887C255EBFF400567587 /* DigitalPurchaseService.swift in Sources */,
+				367CDC602563F7F10010D9E8 /* InstantMessage.swift in Sources */,
 				36358874255EBFB900567587 /* Book.swift in Sources */,
 				3635871D255D7C5100567587 /* ArcadeGameUser.swift in Sources */,
+				367CDC512563F7950010D9E8 /* Alert.swift in Sources */,
+				367CDC4D2563F7740010D9E8 /* MobileApp.swift in Sources */,
 				363587F1255DCA6800567587 /* FileManager.swift in Sources */,
 				36359CB025487E69006CB743 /* Adapter.swift in Sources */,
 				36358735255D853A00567587 /* ArcadeGameHighScore.swift in Sources */,
@@ -1255,6 +1354,7 @@
 				3635876A255DAFA100567587 /* MockAnalyticsLogger.swift in Sources */,
 				36B57EED254AE24E00ED0830 /* ObserverTests.swift in Sources */,
 				36CC72CB2559AF89001E65D6 /* StrategyTests.swift in Sources */,
+				367CDC6A2563F9820010D9E8 /* VisitorPatternTests.swift in Sources */,
 				36CC70322557ED4F001E65D6 /* StateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
