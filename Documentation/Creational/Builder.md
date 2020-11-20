@@ -40,13 +40,13 @@ class  BaseQueryBuilder: Query {
 //Concrete Builder Implementation
 public class PopularProductsQuery: BaseQueryBuilder {
   @discardableResult
-  func take(_ take: Int) -> PopularProductsQuery { //returns `self` so we can chain the method calls.
+  func take(_ take: Int) -> Self { //returns `Self` so we can chain the method calls.
    items.append(URLQueryItem(name: "take", value: String(take)))
    return  self
   }
 
   @discardableResult
-  func skip(_ skip: Int) -> PopularProductsQuery { //returns `self` so we can chain the method calls.
+  func skip(_ skip: Int) -> Self { //returns `Self` so we can chain the method calls.
    items.append(URLQueryItem(name: "skip", value: String(skip)))
    return  self
   }
@@ -64,7 +64,7 @@ let query = PopularProductsQuery()
 
 ### Swift Notes
 Use the @discardableResult keyword on each function that builds the request when returning `self`. This will suppress the `Result unused` warning.
-
+`Self` returns the type that conform to the protocol, opposed to `self` which refers to the value inside that type.
 ##
 
 **PROS**

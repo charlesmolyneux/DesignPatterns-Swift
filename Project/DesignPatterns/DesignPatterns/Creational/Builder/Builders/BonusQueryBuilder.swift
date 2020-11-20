@@ -1,5 +1,5 @@
 class ArcadeGameQueryBuilder: PagedQueryBuilder {
-  public func genre(_ genre: ArcadeGameGenre?) -> PagedQueryBuilder {
+  public func genre(_ genre: ArcadeGameGenre?) -> Self {
     if let genre = genre?.rawValue {
       items.append(URLQueryItem(name: "genre", value: genre))
     }

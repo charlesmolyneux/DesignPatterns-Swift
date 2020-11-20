@@ -7,9 +7,9 @@ The Proxy Pattern allows us to restrict access control to another object, as wel
 
 By Proxy classes acting as a placeholder for another class we can before operations prior or post a request reaching the original object.  
 
-The Proxy Pattern is similar to the [Adapter pattern](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Creational/Adapter.md), the key difference being the Proxy pattern shares the same interface as the class it's acting as a placeholder for. 
+The Proxy Pattern is similar to the [Adapter pattern](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Adapter.md), the key difference being the Proxy pattern shares the same interface as the class it's acting as a placeholder for. 
 
-**Proxy** is similar to the [Facade pattern](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Creational/Facade.md). 
+**Proxy** is similar to the [Facade pattern](https://github.com/charlesmolyneux/DesignPatterns-Swift/blob/master/Documentation/Structural/Facade.md). 
 Both patterns aim to simplify a complex entity. However, Proxy uses the **same interface** as it's service object . Whilst Facade defines its own new interface. 
 
 
