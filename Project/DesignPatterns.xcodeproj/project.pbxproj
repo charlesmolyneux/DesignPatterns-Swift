@@ -81,7 +81,6 @@
 		367CDC652563F8120010D9E8 /* VisitorAppExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC642563F8120010D9E8 /* VisitorAppExample.swift */; };
 		367CDC6A2563F9820010D9E8 /* VisitorPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC682563F9820010D9E8 /* VisitorPatternTests.swift */; };
 		367CDC7525641B940010D9E8 /* PurchaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC7425641B940010D9E8 /* PurchaseService.swift */; };
-		367CDC7625641B940010D9E8 /* PurchaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC7425641B940010D9E8 /* PurchaseService.swift */; };
 		367CDC81256427CE0010D9E8 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC80256427CE0010D9E8 /* LoginService.swift */; };
 		367CDC8825642AAE0010D9E8 /* PurchaseProxyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC8725642AAE0010D9E8 /* PurchaseProxyService.swift */; };
 		367CDC8C25642EA60010D9E8 /* ApplicationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CDC8B25642EA60010D9E8 /* ApplicationState.swift */; };
@@ -699,8 +698,8 @@
 		36359C6325487C61006CB743 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
-				36B57EE1254ADD6900ED0830 /* Behavioural */,
 				36359C7D25487C67006CB743 /* Creational */,
+				36B57EE1254ADD6900ED0830 /* Behavioural */,
 				36359CAE25487E5E006CB743 /* Structural */,
 				36359C6425487C61006CB743 /* DesignPatterns.h */,
 				36359C6525487C61006CB743 /* Info.plist */,
@@ -712,8 +711,8 @@
 		36359C6E25487C61006CB743 /* DesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
-				36B57EEB254AE23E00ED0830 /* Behavioural */,
 				36359C8A25487C92006CB743 /* Creational */,
+				36B57EEB254AE23E00ED0830 /* Behavioural */,
 				36359CB525487E83006CB743 /* Structural */,
 				36359C7125487C61006CB743 /* Info.plist */,
 			);
@@ -723,10 +722,10 @@
 		36359C7D25487C67006CB743 /* Creational */ = {
 			isa = PBXGroup;
 			children = (
-				36B57D4A2549CAC700ED0830 /* Prototype */,
 				36B57D302549C7C600ED0830 /* Builder */,
-				36B57D3D2549C97700ED0830 /* Singleton */,
 				36359C9925487CD6006CB743 /* Factory */,
+				36B57D4A2549CAC700ED0830 /* Prototype */,
+				36B57D3D2549C97700ED0830 /* Singleton */,
 			);
 			path = Creational;
 			sourceTree = "<group>";
@@ -1418,7 +1417,6 @@
 				36CC73252559DD46001E65D6 /* AbstractFactoryTests.swift in Sources */,
 				3635876A255DAFA100567587 /* MockAnalyticsLogger.swift in Sources */,
 				36B57EED254AE24E00ED0830 /* ObserverTests.swift in Sources */,
-				367CDC7625641B940010D9E8 /* PurchaseService.swift in Sources */,
 				36CC72CB2559AF89001E65D6 /* StrategyTests.swift in Sources */,
 				367CDC6A2563F9820010D9E8 /* VisitorPatternTests.swift in Sources */,
 				36CC70322557ED4F001E65D6 /* StateTests.swift in Sources */,

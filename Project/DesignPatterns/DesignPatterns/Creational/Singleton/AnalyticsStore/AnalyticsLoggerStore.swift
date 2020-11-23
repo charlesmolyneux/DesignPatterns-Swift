@@ -20,5 +20,3 @@ public class AnalyticsLoggerStore {
     case sent, notSent
   }
 }
-
-

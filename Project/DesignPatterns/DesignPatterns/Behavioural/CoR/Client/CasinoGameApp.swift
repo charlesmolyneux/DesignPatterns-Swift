@@ -1,23 +1,13 @@
 struct CasinoGameViewApp {
-  let locationHandler = LocationCheckHandler()
-  let authHandler = AuthorisationHandler()
-  let limitsHandler = LimitsHandler()
-  let balanceHandler = BalanceCheckHandler()
+  private let handler: Handler
   
-  public init() {
-    setupHandlers()
-  }
-  
-  private func setupHandlers() {
-    locationHandler
-      .setNext(handler: authHandler)
-      .setNext(handler: limitsHandler)
-      .setNext(handler: balanceHandler)
+  public init(_ handler: Handler) {
+    self.handler = handler
   }
   
   public func playGame(with request: PlayGameRequest) throws -> Bool  {
     do {
-      try locationHandler.handle(request: request)
+      try handler.handle(request: request)
       return true
     } catch {
       throw error
