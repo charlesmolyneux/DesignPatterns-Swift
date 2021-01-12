@@ -29,7 +29,9 @@ public struct AddOperation: Calculator {
 
 //The Client
 class CalculatorApp {
- var strategy: CalculatorMethod
+
+var strategy: CalculatorMethod
+ 
 public func update(strategy: CalculatorMethod) {
  self.strategy = strategy
 }
